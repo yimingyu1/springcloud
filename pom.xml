@@ -86,7 +86,15 @@
         <version>${lombok.version}</version>
         <optional>true</optional>
       </dependency>
+      <!--    依赖的子工程-->
+      <dependency>
+        <groupId>cn.mingyu</groupId>
+        <artifactId>cloud-api-commond</artifactId>
+        <version>${project.version}</version>
+      </dependency>
     </dependencies>
+
+
   </dependencyManagement>
 
   <build>
